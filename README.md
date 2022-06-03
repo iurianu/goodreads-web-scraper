@@ -19,7 +19,7 @@
 ## Installation
 
 - clone this repo to your computer
-- cd simple-web-scraper
+- cd goodreads-web-scraper
 - run `npm install`
 
 ## Usage
