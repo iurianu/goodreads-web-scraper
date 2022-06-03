@@ -1,0 +1,82 @@
+
+html, body {
+	background: antiquewhite;
+	width: 100%;
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
+body {
+	min-height: 100vh;
+	position: relative;
+}
+
+header {
+	height: 90px;
+	background: bisque;
+	border-bottom: 2px inset darkgrey;
+}
+
+h1 {
+	font-size: 2rem;
+	line-height: 5rem;
+}
+
+h2 .title {
+	font-weight: normal;
+}
+
+h4 .authors {
+	font-weight: normal;
+}
+
+main {
+	height: calc(100vh - 130px);
+}
+
+main blockquote {
+	margin-top: 2rem;
+}
+
+main fieldset {
+	border: 1px inset gainsboro;
+    right: 2rem;
+    top: 4rem;
+}
+
+main fieldset p:not(:last-of-type) {
+	margin-bottom: .5rem;
+}
+
+main fieldset p:last-of-type {
+	margin-bottom: 0;
+}
+
+main figure {
+	display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+main figure img {
+	padding: .125rem;
+	border: 2px outset grey;
+}
+
+.row, .d-flex {
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+#footer-nav {
+	height:  40px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+}
+
+#footer-nav p {
+	text-shadow: -1px -1px 0 rgb(255 255 255 / 30%), 1px 1px 0 rgb(0 0 0 / 80%);
+}
